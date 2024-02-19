@@ -3,8 +3,8 @@ In this project, I developed a deep learning model to perform sentiment analysis
 
 Key aspects of the project include:
 
-*Dataset: Utilized the IMDb movie review dataset, consisting of 50,000 reviews split evenly into training and test sets, providing a balanced dataset for binary sentiment classification.
-*Data Preprocessing: Implemented tokenization and sequence padding to convert text data into a suitable format for neural network processing, ensuring uniform input size.
+1.Dataset: Utilized the IMDb movie review dataset, consisting of 50,000 reviews split evenly into training and test sets, providing a balanced dataset for binary sentiment classification.
+2.Data Preprocessing: Implemented tokenization and sequence padding to convert text data into a suitable format for neural network processing, ensuring uniform input size.
 *Model Architecture: Designed a Sequential model in TensorFlow and Keras, incorporating an Embedding layer for NLP, an LSTM layer for sequence processing, and Dense layers with dropout and L2 regularization to combat overfitting.
 *Overfitting Mitigation: Applied dropout, recurrent dropout, and L2 regularization techniques, along with early stopping based on validation loss, to enhance the model's generalization ability.
 *Training and Evaluation: Achieved notable accuracy in classifying the sentiment of movie reviews, demonstrating the model's effectiveness in learning from textual data and its potential application in automated review analysis systems.
